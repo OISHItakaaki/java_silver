@@ -1,0 +1,3 @@
+interface cry {
+	void cry();
+}
