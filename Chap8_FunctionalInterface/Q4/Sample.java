@@ -1,8 +1,8 @@
 public class Sample {
 	public static void main(String[] args){
-		int cnt = 0;
+		//int cnt = 0;
 		Runnable r = () -> {
-			for (cnt = 0; cnt < 10; cnt++) {
+			for (int cnt = 0; cnt < 10; cnt++) {
 				System.out.println(cnt++);
 			}
 		};
